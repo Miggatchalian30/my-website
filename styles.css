@@ -1,0 +1,220 @@
+.main-body {
+  background-color: #004b36;
+  width: 100%;
+  height:auto;
+}
+
+
+/*Sticky Nav*/
+  .mega-menu {
+            position: sticky;
+            top: 0; /* Sticks at the top */
+            background-color: #3b4cca;
+            color: #ffde00;
+            padding: 15px;
+            text-align: center;
+            font-size: 18px;
+            z-index: 1000; /* Keeps it above other elements */
+        }
+
+
+/* Add a black background color to the top navigation */
+.mega-menu {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.mega-menu a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 35px 28px;
+  text-decoration: none;
+  font-size: 26px;
+  font-style: Futura Display Extra Bold;
+}
+
+.mega-menu img {
+ width:  150px;
+ height: auto;
+}
+
+
+/* Change the color of links on hover */
+.mega-menu a:hover {
+  background-color: #004b36;
+  color: #ffffff;
+}
+
+/* Add an active class to highlight the current page */
+.mega-menu a.active {
+  background-color: #004b36;
+  color: #ffffff;
+}
+
+/* Hide the link that should open and close the mega-menu on small screens */
+.mega-menu .icon {
+  display: none;
+}
+
+/* hero banner styling */
+.main-hero {
+  background-image: url('./deku-top-banner.jpg');
+  width: 100%;  
+  height: 500px; /* Set a height */
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 1px;
+}
+
+.hp-title {
+ padding: 100px;
+ padding-bottom: 10px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #000022;
+    color: #e28413;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5.1%;
+    font-size: 22px;
+}
+.cta:hover {
+    background-color: #fbf5f3;
+}
+
+/*Announcement*/
+.announcements {
+ display: flex; 
+ gap: 10px; 
+ width: 100%;
+ }
+
+.section1 img {
+  width: 100%;
+  height: auto;
+} 
+
+.section1 {
+  display: flex;
+  flex-direction: column; /* Keeps content stacked vertically */
+  align-items: center; 
+  justify-content: center;
+}
+
+.col-1, .col-2{
+  width: 45%;
+  margin: 12px;
+  padding: 12px;
+}
+
+.section1 {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+  background-color: #fbf5f;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+/*Visual Nav*/
+
+.section{
+  margin-top: 15px;
+  width: 97%;
+  height: auto;
+  background-color: #fbf5f;
+}
+
+.visual-Nav {
+ display: flex; /* Enables flexbox */
+ gap: 10px; /* Adds spacing between columns */
+ width: 100%;
+ }
+
+.col-nav {
+ flex: 1; /* Makes all columns equal width */
+ background-color: #fbf5f3;
+ padding: 20px;
+ text-align: center;
+ border: 1.3px solid #000022;
+ }
+
+.section {
+  display: flex;
+  flex-direction: column; /* Keeps content stacked vertically */
+  align-items: center; 
+  justify-content: center;
+}
+.section img {
+  width: 340px;
+  height: 227px ;
+} 
+
+.hero2 img {
+  width: 100%;  
+  height: auto; /* Set a height */
+  padding-top: 1px;
+}
+
+/*CONTACT PAGE CSS */
+.contact {
+            max-width: 50%;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-group {
+            display: flex;
+            justify-content: flex-start;
+        }
+        .form-group div {
+            width: 30%;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input {
+            width: 91%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+
+      textarea {
+            width: 71.5%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: auto;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #218838;
+        }
+
+/**/
+
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My Hero Academia</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+<div class="main-body">
+<div class="mega-menu" id="mymenu">
+  <a><img class="logo" src="./academia-logo.png"/> </a>
+  <a href="#home" class="active">Home</a>
+  <a href="./blogpage.html">Blogs</a>
+  <a href="#contact">Contacts</a>
+  <a href="#about">About Us</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<div class="main-hero">
+ <h1 class="hp-title"> Float Your Content, Anchor Your Design! </h1>
+ <a href="#" class="cta">Discover</a>
+</div>
+
+<div class="section1">
+  <br>
+   <h2 class=""> <mark>PLUS ULTRA! </mark></h2>
+<div class="announcements">
+    <div class="col-1">
+      <img src="./izuku-midoriya-smile.gif" alt="Day of the Programmers"/>
+    </div>
+
+    <div class="col-2"><br>
+      <h3 class=""> Day of the Programmers</h3>
+      <h3 class=""> September 12, 2025</h3>
+      <p>
+        The Day of the Programmer is celebrated on the 256th day of the year, which falls on <strong>September 13 (or September 12 in leap years)</strong>. The number 256 is significant in computing because it represents the number of distinct values a byte (8 bits) can store, making it an important figure in programming and digital systems. This special day was officially recognized in Russia in 2009 to honor programmers and software developers for their contributions to technology and innovation. <br> <br>
+
+Programmers play a crucial role in shaping the modern world by developing software, applications, and systems that power everything from smartphones to artificial intelligence. The Day of the Programmer is a time to appreciate their hard work, problem-solving skills, and creativity. Many companies and tech communities celebrate by hosting events, hackathons, and recognition programs to acknowledge the efforts of developers worldwide.
+      </p>
+    </div>
+
+</div>
+<br/>
+</div>
+
+<div class="section">
+  <br>
+   <h2 class=""> Latest Articles </h2>
+<br>
+<div class="visual-Nav">
+    <div class="col-nav">
+      <img src="./activity-image.png" alt=""/>
+       <h3 class=""> How to be A great Programmer? </h3>
+    </div>
+    <div class="col-nav">
+      <img src="./html-code.jpg" alt=""/>
+       <h3 class=""> Get in Touch, with Form Elements </h3>
+    </div>
+    <div class="col-nav">
+      <img src="./laptop-coding.jpg" alt=""/>
+       <h3 class=""> Designing Website with CSS </h3>
+    </div>
+    <div class="col-nav">
+      <img src="./day-of-the-programmer.jpg" alt=""/>
+       <h3 class=""> Day of the Programmers </h3>
+    </div>
+</div>
+<br/>
+
+<div class="visual-Nav">
+    <div class="col-nav">
+      <img src="./activity-image.png" alt=""/>
+       <h3 class=""> How to be A great Programmer? </h3>
+    </div>
+    <div class="col-nav">
+      <img src="./html-code.jpg" alt=""/>
+       <h3 class=""> Get in Touch, with Form Elements </h3>
+    </div>
+    <div class="col-nav">
+      <img src="./laptop-coding.jpg" alt=""/>
+       <h3 class=""> Designing Website with CSS </h3>
+    </div>
+    <div class="col-nav">
+      <img src="./day-of-the-programmer.jpg" alt=""/>
+       <h3 class=""> Day of the Programmers </h3>
+    </div>
+</div>
+<br> <br>
+ <a href="#" class="cta">See More Blogs</a>
+<br/>
+</div>
+  <br>
+<div class="hero2">
+  <img src="./hero-banner-2.jpg" alt="Gold Hero Banner">
+</div>
+
+</div>
+
+
+
+    <script>
+        fetch('/header.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('header').innerHTML = data);
+    </script>
+</body>
+</html>
